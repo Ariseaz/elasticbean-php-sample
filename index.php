@@ -1,5 +1,6 @@
 <?php 
 echo '<p>Hello world!</p>';
+echo '<p>This is a new line update check its updated!</p>';
 
 $mysqli = new mysqli(getenv('RDS_HOSTNAME'), getenv('RDS_USERNAME'), getenv('RDS_PASSWORD'), getenv('RDS_DATABASE'));
 if ($mysqli->connect_errno) {
